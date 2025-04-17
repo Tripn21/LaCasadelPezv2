@@ -1,0 +1,104 @@
+/* style.css */
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #0099cc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Menú */
+  .menu {
+    margin-top: 0.5rem;
+  }
+  
+  .menu a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección de bienvenida */
+  .bienvenida {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Categorías grandes */
+  .categorias-grandes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .categoria-grande {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 32%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .categoria-grande:hover {
+    transform: translateY(-5px);
+  }
+  
+  .categoria-grande img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .categoria-grande h2 {
+    margin: 0.5rem 0 0;
+    font-size: 1.5rem;
+    color: #0099cc;
+  }
+  
+  .categoria-grande a {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    background-color: #0099cc;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .categoria-grande a:hover {
+    background-color: #0077aa;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
