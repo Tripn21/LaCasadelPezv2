@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Peces - La Casa del Pez y +</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f8ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background-color: #0077cc;
+      color: white;
+      margin: 0;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tarjeta {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .tarjeta h3 {
+      margin: 10px 0 5px;
+      color: #0077cc;
+    }
+
+    .tarjeta p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+
+    .precio {
+      font-weight: bold;
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Peces</h1>
+  <div class="galeria">
+    <!-- Tarjetas de Peces con los datos completos -->
+
+    <div class="tarjeta">
+      <img src="imagenes/pez1.jpg" alt="Pez Betta">
+      <h3>Pez Betta</h3>
+      <p><em>Betta splendens</em></p>
+      <p class="precio">Precio: C$95</p>
+      <p><strong>Origen:</strong> Sudeste Asiático</p>
+      <p><strong>Hábitat:</strong> Arrozales y aguas lentas</p>
+      <p><strong>Género:</strong> Betta</p>
+      <p><strong>Familia:</strong> Osphronemidae</p>
+      <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+      <p><strong>Descriptor:</strong> Regan</p>
+      <p><strong>Año de descripción:</strong> 1910</p>
+    </div>
+
+    <div class="tarjeta">
+      <img src="imagenes/pez2.jpg" alt="Guppy">
+      <h3>Guppy</h3>
+      <p><em>Poecilia reticulata</em></p>
+      <p class="precio">Precio: C$60</p>
+      <p><strong>Origen:</strong> América del Sur</p>
+      <p><strong>Hábitat:</strong> Ríos de aguas cálidas</p>
+      <p><strong>Género:</strong> Poecilia</p>
+      <p><strong>Familia:</strong> Poeciliidae</p>
+      <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+      <p><strong>Descriptor:</strong> W. Peters</p>
+      <p><strong>Año de descripción:</strong> 1859</p>
+    </div>
+
+    <div class="tarjeta">
+      <img src="imagenes/pez3.jpg" alt="Pez Ángel">
+      <h3>Pez Ángel</h3>
+      <p><em>Pterophyllum scalare</em></p>
+      <p class="precio">Precio: C$120</p>
+      <p><strong>Origen:</strong> América del Sur</p>
+      <p><strong>Hábitat:</strong> Aguas de ríos y lagos en la cuenca del Amazonas</p>
+      <p><strong>Género:</strong> Pterophyllum</p>
+      <p><strong>Familia:</strong> Cichlidae</p>
+      <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+      <p><strong>Descriptor:</strong> Heckel</p>
+      <p><strong>Año de descripción:</strong> 1840</p>
+    </div>
+
+    <div class="tarjeta">
+      <img src="imagenes/pez4.jpg" alt="Pez Disco">
+      <h3>Pez Disco</h3>
+      <p><em>Symphysodon aequifasciatus</em></p>
+      <p class="precio">Precio: C$180</p>
+      <p><strong>Origen:</strong> Cuenca amazónica</p>
+      <p><strong>Hábitat:</strong> Aguas cálidas y ácidas de ríos amazónicos</p>
+      <p><strong>Género:</strong> Symphysodon</p>
+      <p><strong>Familia:</strong> Cichlidae</p>
+      <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+      <p><strong>Descriptor:</strong> Pellegrin</p>
+      <p><strong>Año de descripción:</strong> 1904</p>
+    </div>
+
+    <div class="tarjeta">
+      <img src="imagenes/pez5.jpg" alt="Tetra Neón">
+      <h3>Tetra Neón</h3>
+      <p><em>Paracheirodon innesi</em></p>
+      <p class="precio">Precio: C$70</p>
+      <p><strong>Origen:</strong> América del Sur (ríos de Colombia y Brasil)</p>
+      <p><strong>Hábitat:</strong> Aguas tropicales cálidas y con poca corriente</p>
+      <p><strong>Género:</strong> Paracheirodon</p>
+      <p><strong>Familia:</strong> Characidae</p>
+      <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+      <p><strong>Descriptor:</strong> Meinken</p>
+      <p><strong>Año de descripción:</strong> 1936</p>
+    </div>
+
+    <div class="tarjeta">
+        <img src="imagenes/pez6.jpg" alt="Ciclido Oscar">
+        <h3>Ciclido Oscar</h3>
+        <p><em>Astronotus ocellatus</em></p>
+        <p class="precio">Precio: C$250</p>
+        <p><strong>Origen:</strong> Cuenca del Amazonas, América del Sur</p>
+        <p><strong>Hábitat:</strong> Aguas cálidas y profundas de ríos</p>
+        <p><strong>Género:</strong> Astronotus</p>
+        <p><strong>Familia:</strong> Cichlidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Cuvier</p>
+        <p><strong>Año de descripción:</strong> 1828</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez7.jpg" alt="Pez Payaso">
+        <h3>Pez Payaso</h3>
+        <p><em>Amphiprioninae</em></p>
+        <p class="precio">Precio: C$350</p>
+        <p><strong>Origen:</strong> Océano Pacífico y océano Índico</p>
+        <p><strong>Hábitat:</strong> Arrecifes de coral</p>
+        <p><strong>Género:</strong> Amphiprion</p>
+        <p><strong>Familia:</strong> Pomacentridae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Cuvier</p>
+        <p><strong>Año de descripción:</strong> 1830</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez8.jpg" alt="Tetra Cebra">
+        <h3>Tetra Cebra</h3>
+        <p><em>Danio rerio</em></p>
+        <p class="precio">Precio: C$50</p>
+        <p><strong>Origen:</strong> Subcontinente indio</p>
+        <p><strong>Hábitat:</strong> Aguas frescas y tranquilas</p>
+        <p><strong>Género:</strong> Danio</p>
+        <p><strong>Familia:</strong> Cyprinidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Hamilton</p>
+        <p><strong>Año de descripción:</strong> 1822</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez9.jpg" alt="Corydoras">
+        <h3>Corydoras</h3>
+        <p><em>Corydoras aeneus</em></p>
+        <p class="precio">Precio: C$85</p>
+        <p><strong>Origen:</strong> América del Sur</p>
+        <p><strong>Hábitat:</strong> Ríos y lagos de agua dulce</p>
+        <p><strong>Género:</strong> Corydoras</p>
+        <p><strong>Familia:</strong> Callichthyidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Lichtenstein</p>
+        <p><strong>Año de descripción:</strong> 1823</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez10.jpg" alt="Arowana">
+        <h3>Arowana</h3>
+        <p><em>Osteoglossum bicirrhosum</em></p>
+        <p class="precio">Precio: C$450</p>
+        <p><strong>Origen:</strong> Cuenca amazónica, Sudamérica</p>
+        <p><strong>Hábitat:</strong> Aguas tropicales con corrientes lentas</p>
+        <p><strong>Género:</strong> Osteoglossum</p>
+        <p><strong>Familia:</strong> Osteoglossidae</p>
+        <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+        <p><strong>Descriptor:</strong> Cuvier</p>
+        <p><strong>Año de descripción:</strong> 1829</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez11.jpg" alt="Pez Loro">
+        <h3>Pez Loro</h3>
+        <p><em>Scarus</em></p>
+        <p class="precio">Precio: C$600</p>
+        <p><strong>Origen:</strong> Océano Pacífico y Mar Rojo</p>
+        <p><strong>Hábitat:</strong> Arrecifes de coral y fondos marinos rocosos</p>
+        <p><strong>Género:</strong> Scarus</p>
+        <p><strong>Familia:</strong> Scaridae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Linnaeus</p>
+        <p><strong>Año de descripción:</strong> 1758</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez12.jpg" alt="Pez Betta Multi Color">
+        <h3>Pez Betta Multi Color</h3>
+        <p><em>Betta splendens</em></p>
+        <p class="precio">Precio: C$120</p>
+        <p><strong>Origen:</strong> Sudeste Asiático</p>
+        <p><strong>Hábitat:</strong> Aguas tranquilas en arrozales</p>
+        <p><strong>Género:</strong> Betta</p>
+        <p><strong>Familia:</strong> Osphronemidae</p>
+        <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+        <p><strong>Descriptor:</strong> Regan</p>
+        <p><strong>Año de descripción:</strong> 1910</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez13.jpg" alt="Pez Guppy">
+        <h3>Pez Guppy</h3>
+        <p><em>Poecilia reticulata</em></p>
+        <p class="precio">Precio: C$60</p>
+        <p><strong>Origen:</strong> América del Sur</p>
+        <p><strong>Hábitat:</strong> Ríos y lagos de aguas cálidas</p>
+        <p><strong>Género:</strong> Poecilia</p>
+        <p><strong>Familia:</strong> Poeciliidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Peters</p>
+        <p><strong>Año de descripción:</strong> 1859</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez14.jpg" alt="Pez Tetra Neon">
+        <h3>Pez Tetra Neon</h3>
+        <p><em>Paracheirodon innesi</em></p>
+        <p class="precio">Precio: C$85</p>
+        <p><strong>Origen:</strong> América del Sur (Colombia, Brasil)</p>
+        <p><strong>Hábitat:</strong> Aguas cálidas y ligeramente ácidas</p>
+        <p><strong>Género:</strong> Paracheirodon</p>
+        <p><strong>Familia:</strong> Characidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Meinken</p>
+        <p><strong>Año de descripción:</strong> 1936</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez15.jpg" alt="Pez Discos Azul">
+        <h3>Pez Disco Azul</h3>
+        <p><em>Symphysodon discus</em></p>
+        <p class="precio">Precio: C$550</p>
+        <p><strong>Origen:</strong> Cuenca del Amazonas</p>
+        <p><strong>Hábitat:</strong> Aguas cálidas, turbia y con baja corriente</p>
+        <p><strong>Género:</strong> Symphysodon</p>
+        <p><strong>Familia:</strong> Cichlidae</p>
+        <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+        <p><strong>Descriptor:</strong> Pellegrin</p>
+        <p><strong>Año de descripción:</strong> 1904</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez16.jpg" alt="Pez Koi">
+        <h3>Pez Koi</h3>
+        <p><em>Cyprinus carpio</em></p>
+        <p class="precio">Precio: C$350</p>
+        <p><strong>Origen:</strong> Asia, Japón y China</p>
+        <p><strong>Hábitat:</strong> Estanques y jardines acuáticos</p>
+        <p><strong>Género:</strong> Cyprinus</p>
+        <p><strong>Familia:</strong> Cyprinidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Linnaeus</p>
+        <p><strong>Año de descripción:</strong> 1758</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez17.jpg" alt="Pez Disco Verde">
+        <h3>Pez Disco Verde</h3>
+        <p><em>Symphysodon aequifasciatus</em></p>
+        <p class="precio">Precio: C$600</p>
+        <p><strong>Origen:</strong> Cuenca del Amazonas, Brasil</p>
+        <p><strong>Hábitat:</strong> Aguas cálidas y turbia</p>
+        <p><strong>Género:</strong> Symphysodon</p>
+        <p><strong>Familia:</strong> Cichlidae</p>
+        <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+        <p><strong>Descriptor:</strong> Pellegrin</p>
+        <p><strong>Año de descripción:</strong> 1904</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez18.jpg" alt="Gurami Azul">
+        <h3>Gurami Azul</h3>
+        <p><em>Trichopodus trichopterus</em></p>
+        <p class="precio">Precio: C$180</p>
+        <p><strong>Origen:</strong> Sudeste Asiático</p>
+        <p><strong>Hábitat:</strong> Lagos y estanques de aguas tranquilas</p>
+        <p><strong>Género:</strong> Trichopodus</p>
+        <p><strong>Familia:</strong> Osphronemidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Pallas</p>
+        <p><strong>Año de descripción:</strong> 1770</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez19.jpg" alt="Pez Borrachio">
+        <h3>Pez Borrachio</h3>
+        <p><em>Macropodus opercularis</em></p>
+        <p class="precio">Precio: C$95</p>
+        <p><strong>Origen:</strong> China, Vietnam</p>
+        <p><strong>Hábitat:</strong> Aguas tranquilas y arrozales</p>
+        <p><strong>Género:</strong> Macropodus</p>
+        <p><strong>Familia:</strong> Osphronemidae</p>
+        <p><strong>Estatus IUCN:</strong> Preocupación menor (LC)</p>
+        <p><strong>Descriptor:</strong> Pallas</p>
+        <p><strong>Año de descripción:</strong> 1770</p>
+      </div>
+  
+      <div class="tarjeta">
+        <img src="imagenes/pez20.jpg" alt="Pez Betta Halfmoon">
+        <h3>Pez Betta Halfmoon</h3>
+        <p><em>Betta splendens</em></p>
+        <p class="precio">Precio: C$150</p>
+        <p><strong>Origen:</strong> Tailandia, Camboya</p>
+        <p><strong>Hábitat:</strong> Aguas tranquilas, arrozales y lagos</p>
+        <p><strong>Género:</strong> Betta</p>
+        <p><strong>Familia:</strong> Osphronemidae</p>
+        <p><strong>Estatus IUCN:</strong> Vulnerable (VU)</p>
+        <p><strong>Descriptor:</strong> Regan</p>
+        <p><strong>Año de descripción:</strong> 1910</p>
+      </div>
+  
+  </div>
+</body>
+</html>
