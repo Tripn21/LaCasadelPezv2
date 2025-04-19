@@ -1,0 +1,28 @@
+{
+  "peces": [
+    {
+      "nombre": "Pez Betta",
+      "precio": "5 USD",
+      "imagen": "pez1.jpg"
+    },
+    {
+      "nombre": "Pez Dorado",
+      "precio": "10 USD",
+      "imagen": "pez2.jpg"
+    }
+  ],
+  "aves": [
+    {
+      "nombre": "Periquito",
+      "precio": "15 USD",
+      "imagen": "ave1.jpg"
+    }
+  ],
+  "perros": [
+    {
+      "nombre": "Collar para perro",
+      "precio": "8 USD",
+      "imagen": "perro1.jpg"
+    }
+  ]
+}
